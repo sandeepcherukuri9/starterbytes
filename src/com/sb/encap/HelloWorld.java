@@ -23,6 +23,7 @@ public class HelloWorld {
 	 * 
 	 */
 	
+	/*
 	public static void main(String[] args) {
 		King king = new King();
 		System.out.println("-------Access in Same Class------");
@@ -39,6 +40,14 @@ public class HelloWorld {
 		com.sb.test.KingNonSubClass tknc = new com.sb.test.KingNonSubClass();
 		System.out.println("-------Access in Different Package NonSub-Class------");
 		tknc.testAccess();
+	} */
+	
+	public static void main(String args[]) {
+		King king = new King();
+		Prince prince = new Prince();
+		Prince prince2 = (Prince) new King();
+		King king2 = new Prince();
+		
 	}
 
 }

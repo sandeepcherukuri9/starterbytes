@@ -12,4 +12,8 @@ public class King {
 		System.out.println("My Default Property: " + myDefaultProperty);
 		System.out.println("My Private Property: " + myPrivateProperty);
 	}
+	
+	private void myPrivateMethod() {
+		System.out.println("My Private method in King");
+	}
 }
