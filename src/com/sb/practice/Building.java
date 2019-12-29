@@ -56,19 +56,30 @@ public class Building {
 
 	}
 
-	/*
-	 * public void getFloorPlanInfo() { if (noOfFloors == 1) {
-	 * System.out.println("construct only independent house"); } else if (noOfFloors
-	 * > 1 & noOfFloors == 2) { System.out.
-	 * println("construct one floor with duplix and other with independent ");
-	 * 
-	 * } else if (noOfFloors > 2 & noOfFloors <= 4) { System.out.
-	 * println("construct two floors with duplix and other with independent");
-	 * 
-	 * } else if (noOfFloors > 4) {
-	 * System.out.println("floor plan is not yet decided"); } else {
-	 * System.out.println("floor plan is not ready "); } }
-	 */
+	public void getFloorPlanInfoNew() {
+		if (noOfFloors == 1) {
+			System.out.println("construct only independent house");
+		} else if (noOfFloors == 2) {
+			System.out.println("construct 1 duplex or 2 independent floors");
+		} else if (noOfFloors > 2 & noOfFloors <= 4) {
+			System.out.println("construct two floors with duplix and other with independent");
+
+		} else if (noOfFloors > 4) {
+			System.out.println("floor plan is not yet decided");
+		} else {
+			System.out.println("floor plan is not ready ");
+		}
+	}
+	
+	public void getFPInfo() {
+		//int maxDuplexFloors = ;
+		/*
+		 * for (int i=maxDuplexFloors; i >= 0; i--) { independentFloors = ;
+		 * System.out.println("Duplex floors: " + i + ", Independent floors: " +
+		 * independentFloors); }
+		 */
+	}
+
 	public void getFloorPlanInfo() {
 		if (noOfFloors == 1) {
 			System.out.println("construct only independent floors");

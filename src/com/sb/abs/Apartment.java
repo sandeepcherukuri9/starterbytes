@@ -7,7 +7,7 @@ package com.sb.abs;
  * @author P2891954
  *
  */
-public abstract class appartment implements BuildingInterface {
+public abstract class Apartment implements BuildingInterface {
 	
 	public int area;
     public String owner;

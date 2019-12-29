@@ -13,6 +13,6 @@ public interface BuildingInterface {
 	public void getArea();
 	public void getOwner();
 	public void getNoOfFloors();
-	
+	public void print(String msg);
 	
 }

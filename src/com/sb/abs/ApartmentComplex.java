@@ -1,6 +1,6 @@
 package com.sb.abs;
 
-public class Complex_appartement extends appartment {
+public class ApartmentComplex extends Apartment {
 
 	public int carParkingCapacity;
 	public boolean isCarParkingAvailable;
