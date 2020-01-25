@@ -1,7 +1,7 @@
 ### Concepts to Cover
-* JVM memory components
+* JVM memory components - C
 * Class and Object
-    * Constructors
+    * Constructors - C
     * Getter, Setter
 * Few concepts
     * Loops - for, while, foreach

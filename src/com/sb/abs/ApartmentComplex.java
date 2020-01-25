@@ -22,6 +22,12 @@ public class ApartmentComplex extends Apartment {
 
 	}
 
+	@Override
+	public void print(String msg) {
+		// TODO Auto-generated method stub
+		
+	}
+
 	/*public void getArea() {
 		// TODO Auto-generated method stub
 		System.out.println("noof sqfoot  " + area);
