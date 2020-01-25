@@ -10,6 +10,8 @@ public class AccountCreator {
 		System.out.println(account2);
 		System.out.println(account3);
 		System.out.println(account.hashCode() + "," + account2.hashCode());
+		account3.setFirstName("Sandeep Kumar");
+		System.out.println(account3.getFirstName());
 		
 		ChaseAccount a1 = ChaseAccount.getInstance();
 		ChaseAccount a2 = ChaseAccount.getInstance();

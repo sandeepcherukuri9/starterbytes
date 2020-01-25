@@ -1,22 +1,27 @@
 package com.sb.initialization;
 
 public class Account {
-	long accountNumber;
-	String firstName;
-	String lastName;
-	String accountType;
-	long balance;
-	String email;
-	String contact;
-	String address;
-	long zipcode;
-	long debitCard;
-	long creditCard;
+	private long accountNumber;
+	private String firstName;
+	private String lastName;
+	private String accountType;
+	private long balance;
+	private String email;
+	private String contact;
+	private String address;
+	private long zipcode;
+	private long debitCard;
+	private long creditCard;
 
 	public Account() {
 		super();
 	}
 
+	public Account(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+	
 	public Account(String firstName, String lastName, String accountType, String email, String contact, String address,
 			long zipcode) {
 		this.firstName = firstName;
@@ -26,6 +31,14 @@ public class Account {
 		this.contact = contact;
 		this.address = address;
 		this.zipcode = zipcode;
+	}
+	
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 
 	@Override

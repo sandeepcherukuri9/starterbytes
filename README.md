@@ -2,14 +2,14 @@
 * JVM memory components - C
 * Class and Object
     * Constructors - C
-    * Getter, Setter
+    * Getter, Setter - C
 * Few concepts
-    * Loops - for, while, foreach
-    * switch statement
+    * Loops - for, while, foreach - C
+    * switch statement - C
     * Recursion
     * String handling
     * Working with collections
-    * Defining POJO's
+    * Defining POJO's - C
 * I/O Handling
     * Stream
     * Working with files

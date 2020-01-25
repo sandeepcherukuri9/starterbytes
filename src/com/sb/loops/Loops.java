@@ -1,4 +1,4 @@
-package com.sb.concepts;
+package com.sb.loops;
 
 public class Loops {
 
