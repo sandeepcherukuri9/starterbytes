@@ -3,17 +3,17 @@ package com.sb.concepts;
 public class StringHandling {
 	public static void main(String[] args) {
 		/*
-		 * String declaration
-		 * String concatenation
-		 * String length
-		 * String comparison
-		 * String hashcode
-		 * Null & Empty check
-		 * Index
-		 * Substring
-		 * Replace
-		 * Split
-		 * Why string is immutable in Java?
+		 * String declaration - C
+		 * String concatenation - C
+		 * String length - C
+		 * String comparison - C
+		 * String hashcode - C
+		 * Null & Empty check - C
+		 * Index - C
+		 * Substring - C
+		 * Replace - C
+		 * Split - C
+		 * Why string is immutable in Java? - C
 		 * 
 		 */
 		String s = "";
@@ -33,5 +33,41 @@ public class StringHandling {
 		System.out.println(c1 == c3);
 		System.out.println(c1.equals(c3));
 		System.out.println(c1.equalsIgnoreCase(c3));
+		
+		String k1 = "sarath";
+		String k2 = new String("sarath");
+		System.out.println(k1.hashCode() + " && " + k2.hashCode() + " = " + (k1 == k2) + ", " + k1.equals(k2));
+		
+		System.out.println("--------Index--------");
+		String i1 = "Chaitanya is learning java";
+		System.out.println("Index of y: " + i1.indexOf("a", 16));
+		
+		System.out.println("--------Sub-string--------");
+		System.out.println(i1.substring(10));
+		System.out.println(i1.substring(13,21));
+		
+		System.out.println("--------Split--------");
+		String j1 = "IN,India";
+		String[] j1Array = j1.split(","); 
+		// Handson - find the usage of String.split(regex, limit)
+		String country_code = j1Array[0];
+		String country_name = j1Array[1];
+		System.out.println(j1Array[0] + "::" + j1Array[1]);
+		System.out.println("Country code: " + country_code);
+		System.out.println("Country name: " + country_name);
+		
+		System.out.println("--------Replace--------");
+		String r1 = "Chaitanya is living in India";
+		System.out.println(r1.replace("I", "U"));
+		System.out.println(r1.replace("India", "US"));
+		System.out.println(r1.replaceAll("a", "A"));
+		System.out.println(r1.replaceFirst("a", "A"));
+		// Write a method replaceLast to replace last occurrence of a char/str
+		
+		System.out.println("---Immutability---");
+		String l1 = "chaitanya";
+		String l2 = l1 + " is staying in US";
+		l1 = l1 + " cherukuri"; // l1 will now have new memory location
+		
 	}
 }

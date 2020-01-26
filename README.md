@@ -7,7 +7,7 @@
     * Loops - for, while, foreach - C
     * switch statement - C
     * Recursion
-    * String handling
+    * String handling - C
     * Working with collections
     * Defining POJO's - C
 * I/O Handling
